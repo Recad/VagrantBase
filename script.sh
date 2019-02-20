@@ -54,7 +54,7 @@ yes | sudo apt-get install nfs-kernel-server
 
 ##Archivo de config
 
-echo "// Ejemplo de archivo /etc/exports de configuración del servidor NFS:
+echo "
 
 # Compartir la carpeta home del servidor
 # en modo lectura y escritura y accesible desde la red 192.168.0.0/24
@@ -66,8 +66,9 @@ echo "// Ejemplo de archivo /etc/exports de configuración del servidor NFS:
 # Compartir carpeta /var/log a un PC como 'solo-lectura'
 /var/log 192.168.0.211(ro) 
 " >> /etc/exports
-
-sudo /etc/init.d/portmap start
+ 
+#sudo /etc/init.d/portmap start
+sudo service portmap start
 
 ##INSTALAR MPI
 yes | sudo apt-get install libcr-dev mpich2 mpich2-doc
