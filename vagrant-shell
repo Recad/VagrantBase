@@ -1,0 +1,22 @@
+
+#!/usr/bin/env bash
+
+#docker manual
+#sudo sudo apt-get install docker-ce docker-ce-cli containerd.io --fix-missing
+#sudo sudo apt-get install docker-ce docker-ce-cli containerd.io --fix-missing
+#apache
+#sudo apt-get -y install apache2 --fix-missing
+#sudo apt-get -y install apache2 --fix-missing
+#htop
+#sudo apt-get -y install htop --fix-missing
+#sudo apt-get -y install htop --fix-missing
+#nano
+#sudo apt-get -y install nano --fix-missing
+#sudo apt-get -y install nano --fix-missing
+
+#pull imagen manual
+#sudo docker pull postgres
+
+#sudo docker run -p 5432:5432 -v /tmp:/var/lib/postgresql/data postgres
+
+
